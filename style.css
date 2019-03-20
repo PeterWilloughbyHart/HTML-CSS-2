@@ -1,0 +1,133 @@
+body {
+    /* background-color: rgb(241, 255, 255) */
+    background-image: url(http://www.designbolts.com/wp-content/uploads/2012/12/White-Gradient-Squares-Seamless-Patterns-For-Website-Backgrounds.jpg);
+
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    /* position: sticky; */
+    font-family: Cambria;
+    color: black;
+    margin-top: 120px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 0px;
+}
+
+#logo {
+    position: absolute;
+    left: 50px;
+    top:10px;
+}
+
+h2{
+    margin-bottom: 0px;
+}
+h5{
+    margin-top: 0px;
+}
+
+
+header a {
+    color: black;
+    text-decoration: none;
+
+
+}
+
+#subscribe {
+    padding: 2px;
+    border: 1px solid black;
+    /* border-right: 1px solid black; */
+    color: black;
+    background-color: rgb(255, 255, 255);
+    border-radius: 250px;
+    width: 85px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#dropdown-box {
+display: inline-block;
+position: relative;
+}
+
+#dropdown-box:hover #dropdown {
+    display: block;
+    
+}
+#dropdown-button {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: haettenschweiler;
+    font-size: 16px;
+    padding: 2px;
+    height: 35px;
+    width: 45px;
+}
+
+#dropdown {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    color:white;
+    background-color:black;
+    padding: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+#dropdown a {
+    color:white;
+    background-color:black;
+    margin: 5px;
+}
+
+#textbox-center {
+    /* border: 1px dotted black; */
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 100px;
+    padding-top: 50px;
+    width:75vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    font-family: tahoma;
+
+}
+
+/* #textbox-center h1 {
+
+} */
+
+#textbox-center p {
+    font-size: 12px;
+
+}
+
+#textbox-center #start-exploring {
+    padding: 5px;
+    color: white;
+    background-color: rgb(194, 1, 75);
+    border-radius: 250px;
+    width: 15%;
+    height: 45px;
+    font-size: 10px;
+    cursor: pointer;
+} 
+#textbox-center #start-exploring:hover {
+    padding: 5px;
+    color: white;
+    background-color: rgb(121, 2, 48);
+    border-radius: 250px; 
+    width: 15%;
+    height: 45px;
+    font-size: 10px;
+    cursor: pointer;
+} 
+
+
